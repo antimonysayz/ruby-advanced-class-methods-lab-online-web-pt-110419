@@ -16,4 +16,5 @@ class Song
     s.artist_name = artist
     @@all << self
   end
+  
 end
