@@ -13,7 +13,7 @@ class Song
   def self.create(name, artist)
     s = Song.new
     s.name = name
-    s.artist_name = artist_name
+    s.artist_name = artist
     @@all << self
   end
 end
