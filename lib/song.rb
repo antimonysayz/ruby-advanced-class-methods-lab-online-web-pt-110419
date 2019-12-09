@@ -14,6 +14,6 @@ class Song
     s = Song.new
     s.name = name
     s.artist_name = artist
-    @@all << self
+    @@all << s
   end
 end
